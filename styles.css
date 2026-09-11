@@ -1,0 +1,46 @@
+#true-cost-dashboard {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1000px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid #333;
+}
+
+#true-cost-dashboard h2 {
+  margin-top: 0;
+  color: #00ffcc;
+  font-size: 24px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.metric-card {
+  background: #2d2d2d;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.metric-card:last-child {
+  margin-right: 0;
+}
+
+.metric-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff4757;
+  margin-top: 5px;
+}

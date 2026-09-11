@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon True Cost",
+  "version": "1.0",
+  "description": "Local Amazon spending dashboard.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*order*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
