@@ -10,6 +10,7 @@ Software that belongs to you, running entirely on your machine.
 
 
 
+<img width="3454" height="1918" alt="Screenshot 2026-09-10 at 20 48 15" src="https://github.com/user-attachments/assets/c79cde32-64fb-42bb-9afe-c9493c04055a" />
 
 
 ## Installation
